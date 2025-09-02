@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+</head>
+<body>
+    <header class="bg-slate-400 text-black dark:bg-dark-500 dark:text-dark ">
+        
+        <nav class=" container mx-auto flex  items-center justify-between p-2 ">
+            <img src="img/Logo-removebg-preview.png" alt="" class="w-45 h-28">
+            <ul class="flex space-x-20 font-serif text-sm ">
+                </li>
+                
+                <a href="" class="hover:bg-slate-500 ">INICIO</a>
+            
+                <li>
+                    <a href="" class="hover:bg-slate-500 ">PROYECTOS</a>
+                </li>
+            
+            
+                <li>
+                    <a href="" class="hover:bg-slate-500 ">SERVICIOS</a>
+                </li>
+            
+            
+                <li>
+                    <a href="" class="hover:bg-slate-500 ">CLIENTES</a>
+                </li>
+            
+            
+                <li>
+                    <a href="" class="hover:bg-slate-500 ">NOSOTROS</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+   
+<div class="swiper w-full h-full ">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide flex items-center justify-center">
+      <img src="img/1.jpg" alt="Imagen 1" class="object-cover w-full h-full">
+    </div>
+    <div class="swiper-slide flex items-center justify-center">
+      <img src="img/2.jpg" alt="Imagen 2" class="object-cover w-full h-full">
+    </div>
+    <div class="swiper-slide flex items-center justify-center">
+      <img src="img/3.jpg" alt="Imagen 3" class="object-cover w-full h-full">
+    </div>
+  </div>
+
+  <div class="swiper-pagination"></div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper('.swiper', {
+    loop: true,
+    autoplay: {
+      delay: 3000, 
+      disableOnInteraction: false, 
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true, // Permite hacer clic en los puntos de paginación
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    centeredSlides: true, 
+  });
+</script>
+
+</body>
+</html>
