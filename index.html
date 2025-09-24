@@ -3,80 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Estudio D & R</title>
     <link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <header class="bg-slate-400 text-black dark:bg-dark-500 dark:text-dark ">
-        
-        <nav class=" container mx-auto flex  items-center justify-between p-2 ">
-            <img src="img/Logo-removebg-preview.png" alt="" class="w-45 h-28">
-            <ul class="flex space-x-20 font-serif text-sm ">
-                </li>
-                
-                <a href="" class="hover:bg-slate-500 ">INICIO</a>
-            
-                <li>
-                    <a href="" class="hover:bg-slate-500 ">PROYECTOS</a>
-                </li>
-            
-            
-                <li>
-                    <a href="" class="hover:bg-slate-500 ">SERVICIOS</a>
-                </li>
-            
-            
-                <li>
-                    <a href="" class="hover:bg-slate-500 ">CLIENTES</a>
-                </li>
-            
-            
-                <li>
-                    <a href="" class="hover:bg-slate-500 ">NOSOTROS</a>
-                </li>
+ 
+    <header class="bg-slate-200 text-black dark:bg-gray-900 dark:text-white">
+        <nav class="container mx-auto flex items-center justify-between p-2">
+            <img src="img/Logo_DR.png" alt="Logo" class="w-50 h-40">
+            <ul class="flex space-x-20 font-serif text-sm">
+                <li><a href="" class="hover:bg-slate-500 p-2">INICIO</a></li>
+                <li><a href="" class="hover:bg-slate-500 p-2">PROYECTOS</a></li>
+                <li><a href="" class="hover:bg-slate-500 p-2">SERVICIOS</a></li>
+                <li><a href="" class="hover:bg-slate-500 p-2">CLIENTES</a></li>
+                <li><a href="" class="hover:bg-slate-500 p-2">NOSOTROS</a></li>
             </ul>
         </nav>
     </header>
 
-   
-<div class="swiper w-full h-full ">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide flex items-center justify-center">
-      <img src="img/1.jpg" alt="Imagen 1" class="object-cover w-full h-full">
+    <div class="swiper w-full h-full ">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide flex items-center justify-center">
+                <img src="img/d-r6.jpg" alt="Imagen 1" class="object-cover w-full h-full">
+            </div>
+            <div class="swiper-slide flex items-center justify-center">
+                <img src="img/d-r4.jpg" alt="Imagen 2" class="object-cover w-full h-full">
+            </div>
+            <div class="swiper-slide flex items-center justify-center">
+                <img src="img/d-r3.jpg" alt="Imagen 3" class="object-cover w-full h-full">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
     </div>
-    <div class="swiper-slide flex items-center justify-center">
-      <img src="img/2.jpg" alt="Imagen 2" class="object-cover w-full h-full">
+
+ 
+    <div class="container mx-auto px-4 py-16">
+        <h2 class="text-4xl md:text-5xl font-bold text-center text-black mb-12">
+            NUESTROS <span class="text-black">SERVICIOS</span>
+        </h2>
+        <div class="flex flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 md:space-x-8">
+          
+            <div class="flex flex-col items-center text-center p-10 max-w-sm max-h-full
+            ">
+                <img
+                    src="img/card-1.jpg"
+                    alt="Diseño de Casas"
+                    class="w-full h-64 object-cover mb-5"
+                >
+                <h3 class="text-xl md:text-2xl font-bold mb-2">ELABORACIÓN DE PLANOS  ESPECIALIZADOS</h3>
+                <p class="text-gray-600 text-sm md:text-base">
+                    Servicio de arquitectura orientado al diseño de casas pequeñas, medianas o grandes, de uno o dos pisos, con un estilo único en la categoría de vivienda urbana.
+                </p>
+            </div>
+
+           
+            <div class="flex flex-col items-center text-center p-10 max-w-sm max-h-full">
+                <img
+                    src="img/card-2.jpg"
+                    alt="Diseño Especializado de Casas de Campo y Playa"
+                    class="w-full h-64 object-cover mb-10"
+                >
+                <h3 class="text-xl md:text-2xl font-bold mb-2">LEVANTAMIENTO TOPOGRAFICO</h3>
+                <p class="text-gray-600 text-sm md:text-base">
+                    Servicio de diseño arquitectónico de casas de campo, casas de playa, bungalows, etc. en la categoría de vivienda temporal.
+                </p>
+            </div>
+
+           
+            <div class="flex flex-col items-center text-center p-10 max-w-sm max-h-full">
+                <img
+                    src="img/card-3.jpg"
+                    alt="Diseño de Oficinas"
+                    class="w-full h-64 object-cover mb-10" 
+                >
+                <h3 class="text-xl md:text-2xl font-bold mb-2">DISEÑO DE INTERIOR</h3>
+                <p class="text-gray-600 text-sm md:text-base">
+                    Servicios de arquitectura, enfocados en la implementación, remodelación y acondicionamiento de espacios de oficinas para optimizar tu empresa.
+                </p>
+            </div>
+            
+        </div>
+        <div class="flex flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 md:space-x-8 ">
+          
+            <div class="flex flex-col items-center text-center p-10 max-w-sm max-h-full  " >
+                <img
+                    src="img/card-1.jpg"
+                    alt="Diseño de Casas"
+                    class="w-full h-64 object-cover mb-5"
+                >
+                <h3 class="text-xl md:text-2xl font-bold mb-2">ELABORACIÓN DE PLANOS  ESPECIALIZADOS</h3>
+                <p class="text-gray-600 text-sm md:text-base">
+                    Servicio de arquitectura orientado al diseño de casas pequeñas, medianas o grandes, de uno o dos pisos, con un estilo único en la categoría de vivienda urbana.
+                </p>
+            </div>
+
+           
+            <div class="flex flex-col items-center text-center p-10 max-w-sm max-h-full" >
+                <img
+                    src="img/card-2.jpg"
+                    alt="Diseño Especializado de Casas de Campo y Playa"
+                    class="w-full h-64 object-cover mb-10"
+                >
+                <h3 class="text-xl md:text-2xl font-bold mb-2">LEVANTAMIENTO TOPOGRAFICO</h3>
+                <p class="text-gray-600 text-sm md:text-base">
+                    Servicio de diseño arquitectónico de casas de campo, casas de playa, bungalows, etc. en la categoría de vivienda temporal.
+                </p>
+            </div>
+
+           
+            <div class="flex flex-col items-center text-center p-10 max-w-sm max-h-full" >
+                <img
+                    src="img/card-3.jpg"
+                    alt="Diseño de Oficinas"
+                    class="w-full h-64 object-cover mb-10" 
+                >
+                <h3 class="text-xl md:text-2xl font-bold mb-2">DISEÑO DE INTERIOR</h3>
+                <p class="text-gray-600 text-sm md:text-base">
+                    Servicios de arquitectura, enfocados en la implementación, remodelación y acondicionamiento de espacios de oficinas para optimizar tu empresa.
+                </p>
+            </div>
+
+        </div>
     </div>
-    <div class="swiper-slide flex items-center justify-center">
-      <img src="img/3.jpg" alt="Imagen 3" class="object-cover w-full h-full">
-    </div>
-  </div>
 
-  <div class="swiper-pagination"></div>
-</div>
-
-
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script>
-  const swiper = new Swiper('.swiper', {
-    loop: true,
-    autoplay: {
-      delay: 3000, 
-      disableOnInteraction: false, 
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true, // Permite hacer clic en los puntos de paginación
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    centeredSlides: true, 
-  });
-</script>
-
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            centeredSlides: true,
+        });
+    </script>
 </body>
 </html>
